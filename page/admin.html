@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Sahifasi</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" />
+  <!-- // -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+  <!-- // -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body>
+  <!-- // seting  -->
+  <button id="settingsButton" class="settings-button">
+    <div>⚙️</div>
+  </button>
+  <div id="settingsModal" class="settings-modal">
+    <div class="settings-content">
+      <span id="closeModal" class="close-button">&times;</span>
+      <h2>Sozlamalar</h2>
+      <label>
+        <input type="radio" name="theme" value="light" checked /> Oq fon
+      </label>
+      <br />
+      <label>
+        <input type="radio" name="theme" value="dark" /> Qora fon
+      </label>
+    </div>
+  </div>
+  <!-- // seting end -->
+  <div class="content-name">
+    <div class="container">
+      <h3>Admin Panel</h3>
+      <div class="nav-content">
+        <h4><a href="#addTest"> Test Qo'shish</a></h4>
+      </div>
+      <button id="logoutBtn" class="btn btn-danger mt-3">Chiqish</button>
+    </div>
+  </div>
+  <div class="container pt-5">
+    <h2 class="center pt-5">Ro'yxatdan o'tganlar</h2>
+    <table id="studentsTable" class="display">
+      <thead>
+        <tr>
+          <th>Ism</th>
+          <th>Familiya</th>
+          <th>Telefon</th>
+          <th>Yosh</th>
+          <th>Amallar</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- O'quvchilar ro'yxati shu yerda yuklanadi -->
+      </tbody>
+    </table>
+
+    <h2>Testlar</h2>
+    <table id="testsTable" class="display">
+      <thead>
+        <tr>
+          <th>Savol</th>
+          <th>Category</th>
+          <th>Variantlar</th>
+          <th>To'g'ri Javob</th>
+
+          <th>Amallar</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Testlar ro'yxati shu yerda yuklanadi -->
+      </tbody>
+    </table>
+
+    <h2 id="addTest">Test Qo'shish</h2>
+    <form id="addTestForm">
+      <label for="category">Kategoriya:</label>
+      <select id="category" name="category">
+        <option value="computer_literacy">Kompyuter Savodxonligi</option>
+        <option value="word">Word</option>
+        <option value="excel">Excel</option>
+        <option value="powerpoint">PowerPoint</option>
+        <!-- Qo'shimcha kategoriyalar -->
+      </select>
+      <div class="form-group">
+        <label for="question">Savol</label>
+        <input type="text" class="form-control" id="question" required />
+      </div>
+      <div class="form-group">
+        <label for="option1">Variant 1</label>
+        <input type="text" class="form-control" id="option1" required />
+      </div>
+      <div class="form-group">
+        <label for="option2">Variant 2</label>
+        <input type="text" class="form-control" id="option2" required />
+      </div>
+      <div class="form-group">
+        <label for="option3">Variant 3</label>
+        <input type="text" class="form-control" id="option3" required />
+      </div>
+      <div class="form-group">
+        <label for="option4">Variant 4</label>
+        <input type="text" class="form-control" id="option4" required />
+      </div>
+      <div class="form-group">
+        <label for="correctOption">To'g'ri Variant</label>
+        <select class="form-control" id="correctOption" required>
+          <option value="0">Variant 1</option>
+          <option value="1">Variant 2</option>
+          <option value="2">Variant 3</option>
+          <option value="3">Variant 4</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary">Qo'shish</button>
+    </form>
+  </div>
+  <!-- ////////////////////////////////////////// -->
+  <br />
+
+
+  <section>
+    <div class="container">
+      <!-- JSON fayl yuklash bo'limi -->
+      <div class="card mt-4">
+        <div class="card-header">
+          <h5 class="card-title">JSON fayldan testlarni yuklash</h5>
+        </div>
+        <div class="card-body">
+          <form id="uploadJsonForm">
+            <div class="mb-3">
+              <label for="jsonFileInput" class="form-label">JSON fayl tanlang</label>
+              <input type="file" class="form-control" id="jsonFileInput" accept=".json,application/json">
+              <div class="form-text">Test ma'lumotlari JSON formatida bo'lishi kerak.</div>
+            </div>
+            <button type="submit" class="btn btn-primary">Yuklash</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="footer-main">
+        <span> <b>@Musurmon_dev </b></span>
+        <span> <b> 2024 </b> </span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- to-top -->
+  <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- //////////////////////////////////////// -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="../js/firebase-config.js"></script>
+  <script src="../js/admin.js"></script>
+</body>
+
+</html>

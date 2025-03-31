@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e7e4e4c5;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    color: g;
+}
+
+section {
+    padding: 1em;
+}
+
+h1,
+h2 {
+    margin: 0.5em 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#testContainer {
+    display: none;
+}
+
+#resultContainer {
+    display: none;
+}
+
+#startTestBtn {
+    width: 100% !important;
+}
+
+.content-name {
+    background-color: white;
+    box-shadow: 0 10px 5px -5px rgba(0, 0, 0, 0.5);
+    z-index: 99999;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.content-name .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px !important;
+}
+
+.testContainer {
+    padding: 100px !important;
+}
+
+.top {
+    margin-top: 100px !important;
+}
+
+input,
+button {
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 1em;
+    text-align: left;
+}
+
+#timer {
+    font-size: 1.5em;
+    color: blue;
+    font-weight: 900;
+}
+
+#testContainer {
+    display: none;
+}
+
+#testContainer div {
+    margin-bottom: 15px;
+}
+
+#submitTestButton,
+#exitTestButton {
+    margin-top: 20px;
+    display: block;
+}
+
+#resultContainer {
+    margin-top: 120px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+}
+
+
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body.light-mode {
+    background-color: #e7e4e4c5;
+    color: #000000;
+}
+
+body.dark-mode {
+    background-color: #020817;
+    color: #ffffff !important;
+}
+
+b {
+    color: blue;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+body.dark-mode .sorting_1,
+body.dark-mode .form-group,
+body.dark-mode .navbar,
+body.dark-mode .content-name,
+body.dark-mode .settings-button,
+body.dark-mode .modal-body,
+body.dark-mode .modal-header,
+body.dark-mode #btn-back-to-top {
+    background-color: #111828 !important;
+    color: #ffffff !important;
+}
+
+body.dark-mode td {
+    background-color: #111828 !important;
+    color: #ffffff;
+}
+
+.light-mode .container {
+    background-color: #fff;
+}
+
+.dark-mode .container {
+    background-color: #111828;
+}
+
+/* // Sozlamalar modali va tugmasi uchun stillar // */
+.settings-button {
+    position: fixed;
+    bottom: 35%;
+    right: 0px;
+    font-size: 24px;
+    border-radius: 50% 0 0 50%;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.settings-button div {
+    border-radius: 50% !important;
+    animation: anim 1.5s infinite linear;
+}
+
+@keyframes anim {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+
+    }
+}
+
+.settings-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999999999999;
+    width: 300px;
+    height: 100%;
+    background-color: #1d3030;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+    padding: 20px;
+    color: #fff !important;
+}
+
+input,
+button {
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+.settings-modal .settings-content {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.close-button {
+    font-size: 24px;
+    cursor: pointer;
+    float: right;
+}
+
+.settings-modal input[type="radio"] {
+    margin-right: 10px;
+}
+
+
+.text-center {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#loginFormModal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#loginFormContent {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#loginFormContent input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#loginFormContent button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#loginFormContent button:hover {
+    background-color: #555;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.none {
+    display: none !important;
+}
+
+.logoute {
+    text-align: end;
+}
+
+.logoute button {
+    background-color: red !important;
+    padding: 10px 35px;
+    border-radius: 25px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.delet {
+    padding: 5px 50px;
+    background-color: red !important;
+    border-radius: 20px;
+}
+
+.delete {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.neme-text {
+    font-size: 30px;
+}
+
+.form-check {
+    display: flex;
+    align-items: center !important;
+}
+
+.form-check input {
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.form-check-label {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.title-text {
+    font-size: 25px;
+    font-weight: 900 !important;
+}
+
+.form-group {
+    background-color: white;
+}
+
+#btn-back-to-top {
+    background-color: #fff;
+    color: #020817;
+    border: none;
+    position: fixed;
+    bottom: 20px;
+    right: 5px;
+    display: none;
+}

@@ -1,0 +1,312 @@
+[
+    {
+        "question": "Microsoft Word dasturida yangi hujjat yaratilganda, odatda avtomatik ravishda dastur tomonidan unga qanday nom beriladi?",
+        "options": [
+            "Лист 1",
+            "Презентация 1",
+            "Документ 1",
+            "Книга 1"
+        ],
+        "answer": "Документ 1"
+    },
+    {
+        "question": "Excel ish kitobida kamida nechta sahifa (list) bo‘lishi mumkin?",
+        "options": [
+            "1",
+            "2",
+            "4",
+            "8"
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Ctrl + A",
+        "options": [
+            "Chop etish oynasini ochish",
+            "Hujjatni barchasini tanlash",
+            "Hujjatning oxiriga o‘tish",
+            "Yangi hujjat yaratish"
+        ],
+        "answer": "Hujjatni barchasini tanlash"
+    },
+    {
+        "question": "Quyida berilganlaridan qaysilari matn muharriri hisoblanadi?",
+        "options": [
+            "Windows, Norton",
+            "Word",
+            "Excel",
+            "PowerPoint"
+        ],
+        "answer": "Word"
+    },
+    {
+        "question": "Microsoft Word dasturiga yuklangan joriy hujjatda “Ctrl+PageUP” tugmalar birikmasi bosilsa nima sodir bo‘ladi?",
+        "options": [
+            "hujjatning oldingi sahifasiga o‘tish",
+            "hujjatning sahifasining oxiriga o‘tish",
+            "hujjatning oxiriga o‘tish",
+            "hujjatning boshiga o‘tish"
+        ],
+        "answer": "hujjatning oldingi sahifasiga o‘tish"
+    },
+    {
+        "question": "Ctrl + P",
+        "options": [
+            "Chop etish oynasini ochish",
+            "Saqlash",
+            "Hujjatning oxiriga o‘tish",
+            "Yangi hujjat yaratish"
+        ],
+        "answer": "Chop etish oynasini ochish"
+    },
+    {
+        "question": "Microsoft Excel jadvallarida formulalar yozish qaysi belgidan boshlanadi?",
+        "options": [
+            "/",
+            "=",
+            "+",
+            ">"
+        ],
+        "answer": "="
+    },
+    {
+        "question": "Microsoft Word dasturiga yuklangan joriy hujjatda “Ctrl+Home” tugmalar birikmasi bosilsa nima sodir bo‘ladi?",
+        "options": [
+            "hujjatning oldingi sahifasiga o‘tish",
+            "hujjatning boshiga o‘tish",
+            "hujjatning keyingi sahifasiga o‘tish",
+            "hujjatning oxiriga o‘tish"
+        ],
+        "answer": "hujjatning boshiga o‘tish"
+    },
+    {
+        "question": "Ctrl + C",
+        "options": [
+            "Nusxalash",
+            "Kesish",
+            "Bekor qilish",
+            "Pastga joylashtirish"
+        ],
+        "answer": "Nusxalash"
+    },
+    {
+        "question": "Microsoft Excel jadvallarida quyidagi amallarning qaysi birining natijasida ROST qiymati hosil bo‘ladi?",
+        "options": [
+            "=\"Shahar\" < \"Respublika\"",
+            "=23 < 12",
+            "=\"Respublika\" < \"Shahar\"",
+            "=12 > 23"
+        ],
+        "answer": "=12 > 23"
+    },
+    {
+        "question": "Microsoft Word dasturida sichqoncha yordamida so‘zni tezkor belgilash qanday amalga oshiriladi?",
+        "options": [
+            "So‘zga sichqoncha chap tugmasi bilan ketma-ket uch marta bosish",
+            "So‘zga sichqoncha chap tugmasi bilan bir marta bosish",
+            "So‘zga sichqoncha chap tugmasi bilan ketma-ket ikki marta bosish",
+            "So‘zga sichqoncha o‘ng tugmasini bosish va 'Выделить' amalini bajarish"
+        ],
+        "answer": "So‘zga sichqoncha chap tugmasi bilan ketma-ket ikki marta bosish"
+    },
+    {
+        "question": "Ctrl + I",
+        "options": [
+            "Matnni qalin qilib qo‘yish",
+            "Matnni italic qilib qo‘yish",
+            "Izlash oynasini ochish",
+            "Pastga joylashtirish"
+        ],
+        "answer": "Matnni italic qilib qo‘yish"
+    },
+    {
+        "question": "PowerPointda taqdimotni taqdim etish uchun qaysi tugma bosiladi?",
+        "options": [
+            "ESC",
+            "F8",
+            "F5",
+            "Ctrl"
+        ],
+        "answer": "F5"
+    },
+    {
+        "question": "Ctrl + S",
+        "options": [
+            "Hujjatning boshiga o‘tish",
+            "Saqlash",
+            "Hujjatning oxiriga o‘tish",
+            "Hujjatning sahifasini boshiga o‘tish"
+        ],
+        "answer": "Saqlash"
+    },
+    {
+        "question": "Monitorning vazifasi nima ?",
+        "options": [
+            "Kompakt disklardagi ma’lumotlarni o’quvchi qurilma",
+            "Monitor kompyuterning tashqi xotirasi",
+            "Kompyuter ishini boshqaruvchi qurilma",
+            "Axborot va ma’lumotlarni ko’rsatuvchi qurilma."
+        ],
+        "answer": "Axborot va ma’lumotlarni ko’rsatuvchi qurilma."
+    },
+    {
+        "question": "Microsoft Excel – bu:",
+        "options": [
+            "Taqdimot muxarriri",
+            "Jadval muxarriri",
+            "Matn muxarriri",
+            "Grafik muxarrir"
+        ],
+        "answer": "Jadval muxarriri"
+    },
+    {
+        "question": "Ctrl + J",
+        "options": [
+            "Keyingi harakatni boshlash",
+            "Hujjatni yopish",
+            "Matnni ikki tomondan surish (justify)",
+            "Matnni markazlash (center)"
+        ],
+        "answer": "Matnni ikki tomondan surish (justify)"
+    },
+    {
+        "question": "Microsoft Excel dasturida qaysi tugma yordamida joriy hujjatni saqlash mumkin?",
+        "options": [
+            "Ctrl + S",
+            "Ctrl + P",
+            "Ctrl + C",
+            "Ctrl + X"
+        ],
+        "answer": "Ctrl + S"
+    },
+    {
+        "question": "Microsoft Word dasturida matnni qalin qilib yozish uchun qaysi tugma bosiladi?",
+        "options": [
+            "Ctrl + B",
+            "Ctrl + I",
+            "Ctrl + U",
+            "Ctrl + A"
+        ],
+        "answer": "Ctrl + B"
+    },
+    {
+        "question": "Microsoft Excel dasturida qaysi tugma yordamida joriy hujjatni chop etish mumkin?",
+        "options": [
+            "Ctrl + P",
+            "Ctrl + S",
+            "Ctrl + C",
+            "Ctrl + X"
+        ],
+        "answer": "Ctrl + P"
+    },
+    {
+        "question": "Microsoft Word dasturida matnni pastki chiziq bilan yozish uchun qaysi tugma bosiladi?",
+        "options": [
+            "Ctrl + B",
+            "Ctrl + I",
+            "Ctrl + U",
+            "Ctrl + A"
+        ],
+        "answer": "Ctrl + U"
+    },
+    {
+        "question": "Microsoft Excel dasturida qaysi tugma yordamida joriy hujjatni yopish mumkin?",
+        "options": [
+            "Ctrl + W",
+            "Ctrl + S",
+            "Ctrl + C",
+            "Ctrl + X"
+        ],
+        "answer": "Ctrl + W"
+    },
+    {
+        "question": "Microsoft Word dasturida matnni markazlash uchun qaysi tugma bosiladi?",
+        "options": [
+            "Ctrl + B",
+            "Ctrl + I",
+            "Ctrl + U",
+            "Ctrl + E"
+        ],
+        "answer": "Ctrl + E"
+    },
+    {
+        "question": "Microsoft Excel dasturida qaysi tugma yordamida joriy hujjatni kesish mumkin?",
+        "options": [
+            "Ctrl + X",
+            "Ctrl + S",
+            "Ctrl + C",
+            "Ctrl + P"
+        ],
+        "answer": "Ctrl + X"
+    },
+    {
+        "question": "Microsoft Word dasturida matnni chapga surish uchun qaysi tugma bosiladi?",
+        "options": [
+            "Ctrl + B",
+            "Ctrl + I",
+            "Ctrl + U",
+            "Ctrl + L"
+        ],
+        "answer": "Ctrl + L"
+    },
+    {
+        "question": "Microsoft Excel dasturida qaysi tugma yordamida joriy hujjatni nusxalash mumkin?",
+        "options": [
+            "Ctrl + C",
+            "Ctrl + S",
+            "Ctrl + X",
+            "Ctrl + P"
+        ],
+        "answer": "Ctrl + C"
+    },
+    {
+        "question": "Microsoft Word dasturida matnni o‘chirish uchun qaysi tugma bosiladi?",
+        "options": [
+            "Delete",
+            "Backspace",
+            "Ctrl + Z",
+            "Ctrl + A"
+        ],
+        "answer": "Delete"
+    },
+    {
+        "question": "Microsoft Excel dasturida qaysi tugma yordamida joriy hujjatni saqlash mumkin?",
+        "options": [
+            "Ctrl + S",
+            "Ctrl + P",
+            "Ctrl + C",
+            "Ctrl + X"
+        ],
+        "answer": "Ctrl + S"
+    },
+    {
+        "question": "Microsoft Word dasturida matnni qalin qilib yozish uchun qaysi tugma bosiladi?",
+        "options": [
+            "Ctrl + B",
+            "Ctrl + I",
+            "Ctrl + U",
+            "Ctrl + A"
+        ],
+        "answer": "Ctrl + B"
+    },
+    {
+        "question": "Microsoft Excel dasturida qaysi tugma yordamida joriy hujjatni chop etish mumkin?",
+        "options": [
+            "Ctrl + P",
+            "Ctrl + S",
+            "Ctrl + C",
+            "Ctrl + X"
+        ],
+        "answer": "Ctrl + P"
+    },
+    {
+        "question": "Microsoft Word dasturida matnni pastki chiziq bilan yozish uchun qaysi tugma bosiladi?",
+        "options": [
+            "Ctrl + B",
+            "Ctrl + I",
+            "Ctrl + U",
+            "Ctrl + A"
+        ],
+        "answer": "Ctrl + U"
+    }
+]
