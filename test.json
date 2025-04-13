@@ -1,312 +1,302 @@
 [
     {
-        "question": "Microsoft Word dasturida yangi hujjat yaratilganda, odatda avtomatik ravishda dastur tomonidan unga qanday nom beriladi?",
+        "question": "Microsoft Word dasturi nima uchun ishlatiladi?",
         "options": [
-            "Лист 1",
-            "Презентация 1",
-            "Документ 1",
-            "Книга 1"
+            "Matnli hujjatlarni yaratish va tahrirlash",
+            "Hisoblash jadvallari bilan ishlash",
+            "Taqdimotlar tayyorlash",
+            "Rasmlarni tahrirlash"
         ],
-        "answer": "Документ 1"
+        "answer": "Matnli hujjatlarni yaratish va tahrirlash"
     },
     {
-        "question": "Excel ish kitobida kamida nechta sahifa (list) bo‘lishi mumkin?",
+        "question": "Excel dasturida formulalar qanday boshlanadi?",
         "options": [
-            "1",
-            "2",
-            "4",
-            "8"
+            "= belgisi bilan",
+            "+ belgisi bilan",
+            "* belgisi bilan",
+            "> belgisi bilan"
         ],
-        "answer": "1"
+        "answer": "= belgisi bilan"
     },
     {
-        "question": "Ctrl + A",
+        "question": "PowerPoint taqdimotida yangi slayd qo'shish uchun qaysi tugma ishlatiladi?",
         "options": [
-            "Chop etish oynasini ochish",
-            "Hujjatni barchasini tanlash",
-            "Hujjatning oxiriga o‘tish",
-            "Yangi hujjat yaratish"
-        ],
-        "answer": "Hujjatni barchasini tanlash"
-    },
-    {
-        "question": "Quyida berilganlaridan qaysilari matn muharriri hisoblanadi?",
-        "options": [
-            "Windows, Norton",
-            "Word",
-            "Excel",
-            "PowerPoint"
-        ],
-        "answer": "Word"
-    },
-    {
-        "question": "Microsoft Word dasturiga yuklangan joriy hujjatda “Ctrl+PageUP” tugmalar birikmasi bosilsa nima sodir bo‘ladi?",
-        "options": [
-            "hujjatning oldingi sahifasiga o‘tish",
-            "hujjatning sahifasining oxiriga o‘tish",
-            "hujjatning oxiriga o‘tish",
-            "hujjatning boshiga o‘tish"
-        ],
-        "answer": "hujjatning oldingi sahifasiga o‘tish"
-    },
-    {
-        "question": "Ctrl + P",
-        "options": [
-            "Chop etish oynasini ochish",
-            "Saqlash",
-            "Hujjatning oxiriga o‘tish",
-            "Yangi hujjat yaratish"
-        ],
-        "answer": "Chop etish oynasini ochish"
-    },
-    {
-        "question": "Microsoft Excel jadvallarida formulalar yozish qaysi belgidan boshlanadi?",
-        "options": [
-            "/",
-            "=",
-            "+",
-            ">"
-        ],
-        "answer": "="
-    },
-    {
-        "question": "Microsoft Word dasturiga yuklangan joriy hujjatda “Ctrl+Home” tugmalar birikmasi bosilsa nima sodir bo‘ladi?",
-        "options": [
-            "hujjatning oldingi sahifasiga o‘tish",
-            "hujjatning boshiga o‘tish",
-            "hujjatning keyingi sahifasiga o‘tish",
-            "hujjatning oxiriga o‘tish"
-        ],
-        "answer": "hujjatning boshiga o‘tish"
-    },
-    {
-        "question": "Ctrl + C",
-        "options": [
-            "Nusxalash",
-            "Kesish",
-            "Bekor qilish",
-            "Pastga joylashtirish"
-        ],
-        "answer": "Nusxalash"
-    },
-    {
-        "question": "Microsoft Excel jadvallarida quyidagi amallarning qaysi birining natijasida ROST qiymati hosil bo‘ladi?",
-        "options": [
-            "=\"Shahar\" < \"Respublika\"",
-            "=23 < 12",
-            "=\"Respublika\" < \"Shahar\"",
-            "=12 > 23"
-        ],
-        "answer": "=12 > 23"
-    },
-    {
-        "question": "Microsoft Word dasturida sichqoncha yordamida so‘zni tezkor belgilash qanday amalga oshiriladi?",
-        "options": [
-            "So‘zga sichqoncha chap tugmasi bilan ketma-ket uch marta bosish",
-            "So‘zga sichqoncha chap tugmasi bilan bir marta bosish",
-            "So‘zga sichqoncha chap tugmasi bilan ketma-ket ikki marta bosish",
-            "So‘zga sichqoncha o‘ng tugmasini bosish va 'Выделить' amalini bajarish"
-        ],
-        "answer": "So‘zga sichqoncha chap tugmasi bilan ketma-ket ikki marta bosish"
-    },
-    {
-        "question": "Ctrl + I",
-        "options": [
-            "Matnni qalin qilib qo‘yish",
-            "Matnni italic qilib qo‘yish",
-            "Izlash oynasini ochish",
-            "Pastga joylashtirish"
-        ],
-        "answer": "Matnni italic qilib qo‘yish"
-    },
-    {
-        "question": "PowerPointda taqdimotni taqdim etish uchun qaysi tugma bosiladi?",
-        "options": [
-            "ESC",
-            "F8",
-            "F5",
-            "Ctrl"
-        ],
-        "answer": "F5"
-    },
-    {
-        "question": "Ctrl + S",
-        "options": [
-            "Hujjatning boshiga o‘tish",
-            "Saqlash",
-            "Hujjatning oxiriga o‘tish",
-            "Hujjatning sahifasini boshiga o‘tish"
-        ],
-        "answer": "Saqlash"
-    },
-    {
-        "question": "Monitorning vazifasi nima ?",
-        "options": [
-            "Kompakt disklardagi ma’lumotlarni o’quvchi qurilma",
-            "Monitor kompyuterning tashqi xotirasi",
-            "Kompyuter ishini boshqaruvchi qurilma",
-            "Axborot va ma’lumotlarni ko’rsatuvchi qurilma."
-        ],
-        "answer": "Axborot va ma’lumotlarni ko’rsatuvchi qurilma."
-    },
-    {
-        "question": "Microsoft Excel – bu:",
-        "options": [
-            "Taqdimot muxarriri",
-            "Jadval muxarriri",
-            "Matn muxarriri",
-            "Grafik muxarrir"
-        ],
-        "answer": "Jadval muxarriri"
-    },
-    {
-        "question": "Ctrl + J",
-        "options": [
-            "Keyingi harakatni boshlash",
-            "Hujjatni yopish",
-            "Matnni ikki tomondan surish (justify)",
-            "Matnni markazlash (center)"
-        ],
-        "answer": "Matnni ikki tomondan surish (justify)"
-    },
-    {
-        "question": "Microsoft Excel dasturida qaysi tugma yordamida joriy hujjatni saqlash mumkin?",
-        "options": [
+            "Ctrl + M",
+            "Ctrl + N",
             "Ctrl + S",
-            "Ctrl + P",
-            "Ctrl + C",
-            "Ctrl + X"
+            "Ctrl + P"
         ],
-        "answer": "Ctrl + S"
+        "answer": "Ctrl + M"
     },
     {
-        "question": "Microsoft Word dasturida matnni qalin qilib yozish uchun qaysi tugma bosiladi?",
+        "question": "Word dasturida matnni qalin (Жирный) qilish uchun qaysi tugma ishlatiladi?",
         "options": [
             "Ctrl + B",
             "Ctrl + I",
             "Ctrl + U",
-            "Ctrl + A"
+            "Ctrl + C"
         ],
         "answer": "Ctrl + B"
     },
     {
-        "question": "Microsoft Excel dasturida qaysi tugma yordamida joriy hujjatni chop etish mumkin?",
+        "question": "Excel da \"СУММ\" funksiyasi nima uchun ishlatiladi?",
         "options": [
+            "Raqamlar yig'indisini hisoblash",
+            "Matnlarni birlashtirish",
+            "O'rtacha qiymatni hisoblash",
+            "Eng katta qiymatni topish"
+        ],
+        "answer": "Raqamlar yig'indisini hisoblash"
+    },
+    {
+        "question": "PowerPoint da slaydlarga animatsiya qo'shish uchun qaysi menyu ishlatiladi?",
+        "options": [
+            "Анимация",
+            "Главная",
+            "Вставка",
+            "Вид"
+        ],
+        "answer": "Анимация"
+    },
+    {
+        "question": "Word da hujjatni saqlash uchun qaysi tugmalar birikmasi ishlatiladi?",
+        "options": [
+            "Ctrl + S",
+            "Ctrl + O",
             "Ctrl + P",
-            "Ctrl + S",
-            "Ctrl + C",
-            "Ctrl + X"
+            "Ctrl + N"
         ],
-        "answer": "Ctrl + P"
+        "answer": "Ctrl + S"
     },
     {
-        "question": "Microsoft Word dasturida matnni pastki chiziq bilan yozish uchun qaysi tugma bosiladi?",
+        "question": "Excel da \"A1\" katakchasi qayerda joylashgan?",
         "options": [
-            "Ctrl + B",
-            "Ctrl + I",
-            "Ctrl + U",
-            "Ctrl + A"
+            "1-ustun, 1-qator",
+            "A-ustun, 1-qator",
+            "A-qator, 1-ustun",
+            "1-qator, A-ustun"
         ],
-        "answer": "Ctrl + U"
+        "answer": "A-ustun, 1-qator"
     },
     {
-        "question": "Microsoft Excel dasturida qaysi tugma yordamida joriy hujjatni yopish mumkin?",
+        "question": "PowerPoint da fon rangini qayerdan o'zgartiriladi?",
         "options": [
-            "Ctrl + W",
-            "Ctrl + S",
-            "Ctrl + C",
-            "Ctrl + X"
+            "Дизайн > Формат фона",
+            "Вставка > Изображение",
+            "Вид > Образец слайдов",
+            "Файл > Эффекты"
         ],
-        "answer": "Ctrl + W"
+        "answer": "Дизайн > Формат фона"
     },
     {
-        "question": "Microsoft Word dasturida matnni markazlash uchun qaysi tugma bosiladi?",
+        "question": "Word da paragrafni markazga tekislash uchun qaysi tugma ishlatiladi?",
         "options": [
-            "Ctrl + B",
-            "Ctrl + I",
-            "Ctrl + U",
-            "Ctrl + E"
+            "Ctrl + E",
+            "Ctrl + L",
+            "Ctrl + R",
+            "Ctrl + J"
         ],
         "answer": "Ctrl + E"
     },
     {
-        "question": "Microsoft Excel dasturida qaysi tugma yordamida joriy hujjatni kesish mumkin?",
+        "question": "Excel da \"СРЗНАЧ\" funksiyasi nima qiladi?",
         "options": [
-            "Ctrl + X",
-            "Ctrl + S",
-            "Ctrl + C",
-            "Ctrl + P"
+            "O'rtacha qiymatni hisobLaydi",
+            "Yig'indini hisobLaydi",
+            "Eng katta qiymatni topadi",
+            "Matnlarni birlashtiradi"
         ],
-        "answer": "Ctrl + X"
+        "answer": "O'rtacha qiymatni hisobLaydi"
     },
     {
-        "question": "Microsoft Word dasturida matnni chapga surish uchun qaysi tugma bosiladi?",
+        "question": "PowerPoint da slayd o'tish effektlari qaysi menyuda sozlanadi?",
         "options": [
-            "Ctrl + B",
-            "Ctrl + I",
-            "Ctrl + U",
-            "Ctrl + L"
+            "Переходы",
+            "Анимация",
+            "Показ слайдов",
+            "Дизайн"
         ],
-        "answer": "Ctrl + L"
+        "answer": "Переходы"
     },
     {
-        "question": "Microsoft Excel dasturida qaysi tugma yordamida joriy hujjatni nusxalash mumkin?",
+        "question": "Word da bekor qilish amalini bajarish uchun qaysi tugma ishlatiladi?",
         "options": [
-            "Ctrl + C",
-            "Ctrl + S",
-            "Ctrl + X",
-            "Ctrl + P"
-        ],
-        "answer": "Ctrl + C"
-    },
-    {
-        "question": "Microsoft Word dasturida matnni o‘chirish uchun qaysi tugma bosiladi?",
-        "options": [
-            "Delete",
-            "Backspace",
             "Ctrl + Z",
-            "Ctrl + A"
+            "Ctrl + Y",
+            "Ctrl + X",
+            "Ctrl + C"
         ],
-        "answer": "Delete"
+        "answer": "Ctrl + Z"
     },
     {
-        "question": "Microsoft Excel dasturida qaysi tugma yordamida joriy hujjatni saqlash mumkin?",
+        "question": "Excel da \"МАКС\" funksiyasi nima qiladi?",
         "options": [
+            "Eng katta qiymatni topadi",
+            "Eng kichik qiymatni topadi",
+            "Yig'indini hisobLaydi",
+            "O'rtacha qiymatni hisobLaydi"
+        ],
+        "answer": "Eng katta qiymatni topadi"
+    },
+    {
+        "question": "PowerPoint da yangi taqdimot yaratish uchun qaysi tugma ishlatiladi?",
+        "options": [
+            "Ctrl + N",
+            "Ctrl + O",
             "Ctrl + S",
-            "Ctrl + P",
-            "Ctrl + C",
-            "Ctrl + X"
+            "Ctrl + P"
         ],
-        "answer": "Ctrl + S"
+        "answer": "Ctrl + N"
     },
     {
-        "question": "Microsoft Word dasturida matnni qalin qilib yozish uchun qaysi tugma bosiladi?",
-        "options": [
-            "Ctrl + B",
-            "Ctrl + I",
-            "Ctrl + U",
-            "Ctrl + A"
-        ],
-        "answer": "Ctrl + B"
-    },
-    {
-        "question": "Microsoft Excel dasturida qaysi tugma yordamida joriy hujjatni chop etish mumkin?",
+        "question": "Word da \"Печать\" (chop etish) uchun qaysi tugma ishlatiladi?",
         "options": [
             "Ctrl + P",
             "Ctrl + S",
-            "Ctrl + C",
-            "Ctrl + X"
+            "Ctrl + O",
+            "Ctrl + N"
         ],
         "answer": "Ctrl + P"
     },
     {
-        "question": "Microsoft Word dasturida matnni pastki chiziq bilan yozish uchun qaysi tugma bosiladi?",
+        "question": "Excel da \"МИН\" funksiyasi nima qiladi?",
         "options": [
-            "Ctrl + B",
-            "Ctrl + I",
-            "Ctrl + U",
-            "Ctrl + A"
+            "Eng kichik qiymatni topadi",
+            "Eng katta qiymatni topadi",
+            "Yig'indini hisobLaydi",
+            "O'rtacha qiymatni hisobLaydi"
         ],
-        "answer": "Ctrl + U"
+        "answer": "Eng kichik qiymatni topadi"
+    },
+    {
+        "question": "PowerPoint da slayd ko'rinishini o'zgartirish uchun qaysi menyu ishlatiladi?",
+        "options": [
+            "Вид",
+            "Главная",
+            "Анимация",
+            "Вставка"
+        ],
+        "answer": "Вид"
+    },
+    {
+        "question": "Word da qidirish funksiyasi uchun qaysi tugma ishlatiladi?",
+        "options": [
+            "Ctrl + F",
+            "Ctrl + H",
+            "Ctrl + G",
+            "Ctrl + D"
+        ],
+        "answer": "Ctrl + F"
+    },
+    {
+        "question": "Excel da \"СЧЁТ\" funksiyasi nima qiladi?",
+        "options": [
+            "Raqamli katakchalar sonini hisobLaydi",
+            "Matnli katakchalar sonini hisobLaydi",
+            "Yig'indini hisobLaydi",
+            "O'rtacha qiymatni hisobLaydi"
+        ],
+        "answer": "Raqamli katakchalar sonini hisobLaydi"
+    },
+    {
+        "question": "PowerPoint da slaydga yangi matn qo'shish uchun nima ishlatiladi?",
+        "options": [
+            "Вставка > Надпись",
+            "Дизайн > Темы",
+            "Анимация > Добавить анимацию",
+            "Вид > Образец слайдов"
+        ],
+        "answer": "Вставка > Надпись"
+    },
+    {
+        "question": "Word da \"Сохранить как\" (boshqa nom bilan saqlash) funksiyasi uchun qaysi tugma ishlatiladi?",
+        "options": [
+            "F12",
+            "Ctrl + S",
+            "Shift + S",
+            "Alt + S"
+        ],
+        "answer": "F12"
+    },
+    {
+        "question": "Excel da \"ЕСЛИ\" funksiyasi nima qiladi?",
+        "options": [
+            "Shartli tekshirish amalga oshiradi",
+            "Yig'indini hisobLaydi",
+            "O'rtacha qiymatni hisobLaydi",
+            "Matnlarni birlashtiradi"
+        ],
+        "answer": "Shartli tekshirish amalga oshiradi"
+    },
+    {
+        "question": "PowerPoint da slaydlar o'lchamini o'zgartirish uchun qaysi menyu ishlatiladi?",
+        "options": [
+            "Дизайн > Размер слайда",
+            "Вид > Масштаб",
+            "Переходы > Время",
+            "Анимация > Продолжительность"
+        ],
+        "answer": "Дизайн > Размер слайда"
+    },
+    {
+        "question": "Word da \"Маркеры и нумерация\" qayerdan sozlanadi?",
+        "options": [
+            "Главная > Абзац",
+            "Вставка > Символы",
+            "Рецензирование > Отслеживание",
+            "Макет > Параметры страницы"
+        ],
+        "answer": "Главная > Абзац"
+    },
+    {
+        "question": "Excel da \"ВПР\" funksiyasi nima qiladi?",
+        "options": [
+            "Vertikal qidiruv amalga oshiradi",
+            "Gorizontal qidiruv amalga oshiradi",
+            "Yig'indini hisobLaydi",
+            "O'rtacha qiymatni hisobLaydi"
+        ],
+        "answer": "Vertikal qidiruv amalga oshiradi"
+    },
+    {
+        "question": "PowerPoint da slaydlarga ovoz qo'shish uchun qaysi menyu ishlatiladi?",
+        "options": [
+            "Вставка > Аудио",
+            "Дизайн > Темы",
+            "Анимация > Звук",
+            "Показ слайдов > Запись"
+        ],
+        "answer": "Вставка > Аудио"
+    },
+    {
+        "question": "Word da \"Границы страниц\" qayerdan sozlanadi?",
+        "options": [
+            "Дизайн > Границы страниц",
+            "Макет > Поля",
+            "Вставка > Фигуры",
+            "Рецензирование > Язык"
+        ],
+        "answer": "Дизайн > Границы страниц"
+    },
+    {
+        "question": "Excel da \"Сводная таблица\" nima uchun ishlatiladi?",
+        "options": [
+            "Ma'lumotlarni umumlashtirish va tahlil qilish",
+            "Matnlarni birlashtirish",
+            "Rasmlar qo'shish",
+            "Formulalarni tekshirish"
+        ],
+        "answer": "Ma'lumotlarni umumlashtirish va tahlil qilish"
+    },
+    {
+        "question": "PowerPoint da taqdimotni boshlash uchun qaysi tugma ishlatiladi?",
+        "options": [
+            "F5",
+            "F7",
+            "F9",
+            "F12"
+        ],
+        "answer": "F5"
     }
 ]
